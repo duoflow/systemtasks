@@ -34,7 +34,7 @@ func (a *AliasInterface) ConfigureSubIf(subifIndex int, mainInterfaceName string
 	a.IPADDR = ipAddr
 	a.NETMASK = netMask
 	a.SIZE = 9
-	a.FILENAME = "ifcfg-" + a.DEVICE
+	a.FILENAME = "ifcfg-" //+ a.DEVICE
 	return 0
 }
 
